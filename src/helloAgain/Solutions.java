@@ -29,6 +29,7 @@ public class Solutions {
                 if(helper(j, graph, vis, path)) return true;
             }else if(path[j]==1) return true;
         }
+        path[i] = 0;
         return false;
     }
 
